@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 # cap = cv.VideoCapture('vids/her.mp4')
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(0) # read from CAM
 
 bgfg = cv.createBackgroundSubtractorMOG2()
 
